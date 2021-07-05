@@ -1,0 +1,114 @@
+/*======================================
+Font integrated CSS
+========================================*/
+@font-face{
+	font-family: PlayfairDisplay-Regular;
+	src: url("font/PlayfairDisplay/PlayfairDisplay-Regular.ttf");
+}
+
+@font-face{
+	font-family: PlayfairDisplay-Italic;
+	src: url(font/PlayfairDisplay/PlayfairDisplay-Italic.ttf);
+}
+
+@font-face{
+	font-family: PlayfairDisplay-Black;
+	src: url(font/PlayfairDisplay/PlayfairDisplay-Black.ttf);
+}
+@font-face{
+	font-family: PlayfairDisplay-Bold;
+	src: url(font/PlayfairDisplay/PlayfairDisplay-Bold.ttf);
+}
+@font-face{
+	font-family: Ubuntu-Light;
+	src: url(font/Ubuntu/Ubuntu-Light.ttf);
+}
+
+/*======================================
+Common CSS
+========================================*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'PlayfairDisplay-Regular', serif;
+	font-size: 14px;
+	line-height: 1.5em;
+	color: #626262;
+}
+
+img{
+	max-width: 100%;
+  	height: auto;
+}
+
+.container{
+	margin: 0 auto;
+	width: 90%;
+	max-width: 1200px;
+	
+}
+
+
+/*======================================
+header area CSS
+========================================*/
+header{
+	padding: 75px 0;
+}
+
+.header_content{
+	overflow: hidden;
+}
+
+/*logo start*/
+.logo{
+	width: 10%;
+	max-width: 125px;
+	max-height: 23px;
+	float: left;
+}
+
+/*logo end*/
+
+/*menu start*/
+
+.menu{
+	float: right;
+	width: 70%;
+}
+
+.menu ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: right;
+
+}
+
+.menu ul li{
+	display: inline-block;
+	
+}
+
+
+.menu ul li a{
+	text-decoration: none;
+	display: block;
+	text-transform: uppercase;
+	margin-right: 123px;
+}
+
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+
+/*menu end*/
+
+.ubunto_font{
+	font-family: 'Ubuntu-Light', sans-serif;
+	color: darkred;
+}
+
+.inconsolata_font{
+	font-family: 'Inconsolata', monospace;
+}
